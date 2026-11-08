@@ -1,0 +1,27 @@
+{
+  "name": "mt4-trade-logger",
+  "version": "1.0.0",
+  "description": "Cloud middleware that receives closed trades from MetaTrader 4 EA and stores them permanently in Supabase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "metatrader",
+    "mt4",
+    "forex",
+    "trade-logger",
+    "supabase"
+  ],
+  "author": "Brian Kitandwe",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
